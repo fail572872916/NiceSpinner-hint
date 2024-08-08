@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".MainActivity">
+
+    <com.joh.library.NiceSpinner
+        android:id="@+id/nice_spinner_gait"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+
+        app:arrowDrawable="@drawable/ic_arraw_right"
+        app:backgroundSelector="@drawable/dialog_wheel_style"
+        app:entries="@array/cr_level"
+        app:hintText="请选择步态"
+        app:hintTextColor="#989B98"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popBackgroundSelector="@drawable/dialog_wheel_style" />
+
+
+    <com.joh.library.NiceSpinner
+        android:id="@+id/nice_spinner_gait1"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+
+        app:arrowDrawable="@drawable/ic_arraw_right"
+        app:backgroundSelector="@drawable/dialog_wheel_style"
+        app:entries="@array/cr_level"
+        app:hintText="请选择步态"
+        app:hintTextColor="#989B98"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popBackgroundSelector="@drawable/dialog_wheel_style" />
+
+    <com.joh.library.NiceSpinner
+        android:id="@+id/nice_spinner_gait2"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="30dp"
+        app:arrowDrawable="@drawable/ic_arraw_right"
+        app:backgroundSelector="@drawable/dialog_wheel_style"
+        app:entries="@array/cr_level"
+        app:hintText="请选择步态"
+        app:hintTextColor="#989B98"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:popBackgroundSelector="@drawable/dialog_wheel_style" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

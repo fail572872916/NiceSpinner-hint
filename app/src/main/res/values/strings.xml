@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HintNiceSpinner</string>
+
+
+    <string-array name="cr_level">
+        <item>0-没有感觉</item>
+        <item>0.5-非常轻松</item>
+        <item>1-稍微轻松</item>
+        <item>2-轻松</item>
+        <item>3-中等累</item>
+        <item>4-稍微有点累</item>
+        <item>5-累</item>
+        <item>6-很累</item>
+        <item>7-很累</item>
+        <item>8-很累</item>
+        <item>9-很累</item>
+        <item>10-非常累、极限</item>
+    </string-array>
+</resources>
